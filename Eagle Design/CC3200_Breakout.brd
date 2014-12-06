@@ -2616,8 +2616,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U$1" library="cc3200" package="PVQFN-N64" value="CC3200" x="26.67" y="19.05"/>
 <element name="U15" library="SparkFun-DigitalIC" package="SO08WIDE" value="AT25FS010" x="13.97" y="13.97" rot="R180"/>
 <element name="U$3" library="SparkFun-RF" package="ANTENNA-CHIP2" value="ANTENNA2SMD" x="31.75" y="2.54" rot="R90"/>
-<element name="J22" library="SparkFun-Connectors" package="2X10" value="M10X2" x="7.62" y="19.05" rot="R270"/>
-<element name="J23" library="SparkFun-Connectors" package="2X10" value="M10X2" x="50.8" y="19.05" rot="R270"/>
+<element name="J22" library="SparkFun-Connectors" package="2X10" value="M10X2" x="7.62" y="19.05" locked="yes" rot="R270"/>
+<element name="J23" library="SparkFun-Connectors" package="2X10" value="M10X2" x="50.8" y="19.05" locked="yes" rot="R270"/>
 <element name="Y2" library="SparkFun-FreqCtrl" package="CRYSTAL-SMD-5X3" value="32.768KHz" x="21.59" y="29.21"/>
 <element name="Y3" library="SparkFun-FreqCtrl" package="CRYSTAL-SMD-5X3" value="407MHz" x="22.86" y="8.89" rot="R90"/>
 <element name="JTAG" library="SparkFun-Connectors" package="1X06" value="" x="10.922" y="3.302">
