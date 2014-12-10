@@ -10731,6 +10731,8 @@ Pogo pins- HW-11044</description>
 <part name="R58" library="resistor" deviceset="R-US_" device="R0402" value="1k"/>
 <part name="R61" library="resistor" deviceset="R-US_" device="R0402" value="1k"/>
 <part name="GND25" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="JP91" library="SparkFun-Connectors" deviceset="M02" device="LOCK"/>
+<part name="GND30" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10824,6 +10826,8 @@ Pogo pins- HW-11044</description>
 <instance part="R58" gate="G$1" x="78.74" y="30.48" rot="R90"/>
 <instance part="R61" gate="G$1" x="86.36" y="30.48" rot="R90"/>
 <instance part="GND25" gate="1" x="78.74" y="12.7"/>
+<instance part="JP91" gate="G$1" x="248.92" y="10.16" rot="R90"/>
+<instance part="GND30" gate="1" x="251.46" y="25.4" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -11253,6 +11257,11 @@ Pogo pins- HW-11044</description>
 <wire x1="78.74" y1="20.32" x2="78.74" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="JP91" gate="G$1" pin="1"/>
+<wire x1="248.92" y1="17.78" x2="248.92" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="GND30" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="N$5" class="0">
 <segment>
@@ -11462,6 +11471,11 @@ Pogo pins- HW-11044</description>
 <pinref part="R57" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="7.62" x2="101.6" y2="2.54" width="0.1524" layer="91"/>
 <label x="101.6" y="2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP91" gate="G$1" pin="2"/>
+<wire x1="246.38" y1="17.78" x2="246.38" y2="22.86" width="0.1524" layer="91"/>
+<label x="246.38" y="22.86" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="58" class="0">
