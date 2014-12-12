@@ -273,7 +273,7 @@
 <smd name="62" x="-2.75" y="4.475" dx="0.85" dy="0.28" layer="1" roundness="75" rot="R270" stop="no" cream="no"/>
 <smd name="63" x="-3.25" y="4.475" dx="0.85" dy="0.28" layer="1" roundness="75" rot="R270" stop="no" cream="no"/>
 <smd name="64" x="-3.75" y="4.475" dx="0.85" dy="0.28" layer="1" roundness="75" rot="R270" stop="no" cream="no"/>
-<smd name="EXP" x="0" y="0" dx="4.25" dy="4.25" layer="1" cream="no"/>
+<smd name="EXP" x="0" y="0" dx="7.112" dy="7.112" layer="1" cream="no"/>
 <text x="-4.75" y="5.25" size="1.27" layer="25">&gt;NAME</text>
 <text x="-4.25" y="-6.5" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-4.825" y1="3.625" x2="-4.2" y2="3.875" layer="31"/>
