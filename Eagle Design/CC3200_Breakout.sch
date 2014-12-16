@@ -11405,6 +11405,21 @@ Pogo pins- HW-11044</description>
 <pinref part="SUPPLY6" gate="G$1" pin="V_BATT"/>
 <wire x1="157.48" y1="205.74" x2="157.48" y2="210.82" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="JP91" gate="G$1" pin="2"/>
+<wire x1="246.38" y1="17.78" x2="246.38" y2="22.86" width="0.1524" layer="91"/>
+<label x="246.38" y="22.86" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="JTAG" gate="G$1" pin="1"/>
+<wire x1="198.12" y1="20.32" x2="203.2" y2="20.32" width="0.1524" layer="91"/>
+<label x="203.2" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R57" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="7.62" x2="101.6" y2="2.54" width="0.1524" layer="91"/>
+<label x="101.6" y="2.54" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$33" class="0">
 <segment>
@@ -11419,12 +11434,6 @@ Pogo pins- HW-11044</description>
 <segment>
 <pinref part="R64" gate="G$1" pin="2"/>
 <pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
-</segment>
-</net>
-<net name="N$34" class="0">
-<segment>
-<pinref part="R65" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="106.68" x2="17.78" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -11461,21 +11470,6 @@ Pogo pins- HW-11044</description>
 <pinref part="J22" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="142.24" x2="195.58" y2="142.24" width="0.1524" layer="91"/>
 <label x="193.04" y="142.24" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JTAG" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="20.32" x2="203.2" y2="20.32" width="0.1524" layer="91"/>
-<label x="203.2" y="20.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R57" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="7.62" x2="101.6" y2="2.54" width="0.1524" layer="91"/>
-<label x="101.6" y="2.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP91" gate="G$1" pin="2"/>
-<wire x1="246.38" y1="17.78" x2="246.38" y2="22.86" width="0.1524" layer="91"/>
-<label x="246.38" y="22.86" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="58" class="0">
@@ -11778,6 +11772,11 @@ Pogo pins- HW-11044</description>
 <pinref part="J23" gate="G$1" pin="8"/>
 <wire x1="289.56" y1="134.62" x2="279.4" y2="134.62" width="0.1524" layer="91"/>
 <label x="289.56" y="134.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R65" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="106.68" x2="17.78" y2="106.68" width="0.1524" layer="91"/>
+<label x="20.32" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$91" class="0">
