@@ -11888,6 +11888,15 @@ SRN6045- 33uH, 20% 1.4A</description>
 <wire x1="248.92" y1="17.78" x2="248.92" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="GND30" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C50" gate="G$1" pin="1"/>
+<wire x1="269.24" y1="208.28" x2="271.78" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="208.28" x2="271.78" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="208.28" x2="284.48" y2="208.28" width="0.1524" layer="91"/>
+<junction x="271.78" y="208.28"/>
+<pinref part="U$3" gate="G$1" pin="SIGNAL"/>
+<pinref part="L1" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="N$5" class="0">
 <segment>
@@ -12078,17 +12087,6 @@ SRN6045- 33uH, 20% 1.4A</description>
 <pinref part="FL1" gate="G$1" pin="OUT"/>
 <wire x1="246.38" y1="208.28" x2="254" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$37" class="0">
-<segment>
-<pinref part="C50" gate="G$1" pin="1"/>
-<wire x1="269.24" y1="208.28" x2="271.78" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="208.28" x2="271.78" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="208.28" x2="284.48" y2="208.28" width="0.1524" layer="91"/>
-<junction x="271.78" y="208.28"/>
-<pinref part="U$3" gate="G$1" pin="SIGNAL"/>
-<pinref part="L1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VCC_BRD" class="0">
